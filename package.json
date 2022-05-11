@@ -1,0 +1,17 @@
+{
+  "name": "@wavesgg/next-api",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "license": "MIT",
+  "files": [
+    "edge.ts",
+    "index.ts",
+    "./edge/**/*.ts",
+    "./errors/**/*.ts",
+    "./lambda/**/*.ts"
+  ],
+  "devDependencies": {
+    "typescript": "^4.5.3",
+    "next": "12.1.5"
+  }
+}
